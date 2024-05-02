@@ -1,0 +1,8 @@
+Model Information:
+* title:	Garage metal
+* source:	https://sketchfab.com/3d-models/garage-metal-9500982cacf241d8b315c578d1b5bc3f
+* author:	Qweerty (https://sketchfab.com/Qwee3rty)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Default House
+* source:	https://sketchfab.com/3d-models/default-house-f8c0ad9872474039a7792e5816b35261
+* author:	alex999m (https://sketchfab.com/alex999m)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Default House" (https://sketchfab.com/3d-models/default-house-f8c0ad9872474039a7792e5816b35261) by alex999m (https://sketchfab.com/alex999m) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
