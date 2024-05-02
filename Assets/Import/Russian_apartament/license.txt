@@ -1,0 +1,11 @@
+Model Information:
+* title:	Russian apartament
+* source:	https://sketchfab.com/3d-models/russian-apartament-b188c3f0aaf64488a49628f7310e93e3
+* author:	Bomber5761 (https://sketchfab.com/Bomber5761)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Russian apartament" (https://sketchfab.com/3d-models/russian-apartament-b188c3f0aaf64488a49628f7310e93e3) by Bomber5761 (https://sketchfab.com/Bomber5761) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
