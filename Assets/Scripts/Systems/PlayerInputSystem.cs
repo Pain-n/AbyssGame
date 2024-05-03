@@ -25,8 +25,8 @@ namespace Assets.Scripts.Systems
 
         private void SetDirection()
         {
-            moveX = Input.GetAxis("Horizontal");
-            moveY = Input.GetAxis("Vertical");
+            moveX = Input.GetAxisRaw("Horizontal");
+            moveY = Input.GetAxisRaw("Vertical");
         }
     }
 }

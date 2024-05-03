@@ -4,13 +4,20 @@ using UnityEngine;
 
 namespace Assets.Scripts.Systems
 {
-    sealed class PlayerMovementSystem : IEcsRunSystem
+    sealed class PlayerMovementSystem : IEcsInitSystem,IEcsRunSystem
     {
         private readonly EcsWorld _world = null;
 
         private readonly EcsFilter<MovableComponent, DirectionComponent, CameraComponent> movableIFilter = null;
 
         private float turnSmoothVelocity;
+
+        public void Init()
+        {
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
+        }
+
         public void Run()
         {           
             foreach (var i in movableIFilter)
@@ -26,7 +33,7 @@ namespace Assets.Scripts.Systems
                     movableComponent.Rb.rotation = Quaternion.Euler(0, angle, 0);
 
                     Vector3 moveDirection = Quaternion.Euler(0, targetAngle, 0) * Vector3.forward;
-                    movableComponent.Rb.MovePosition(movableComponent.Rb.transform.position + moveDirection.normalized * movableComponent.Speed * Time.fixedDeltaTime);
+                    movableComponent.Rb.velocity = moveDirection.normalized * movableComponent.Speed * Time.fixedDeltaTime;
                 }
             }
         }
