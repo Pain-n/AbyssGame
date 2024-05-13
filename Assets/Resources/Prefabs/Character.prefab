@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 1724918204276596871}
   - component: {fileID: 8973554211608105645}
   - component: {fileID: 1838690824362546835}
+  - component: {fileID: 7285640610156772103}
   m_Layer: 0
   m_Name: Character
   m_TagString: Untagged
@@ -49,7 +50,7 @@ Rigidbody:
   m_GameObject: {fileID: 2698265913666439759}
   serializedVersion: 4
   m_Mass: 1
-  m_Drag: 0
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -117,8 +118,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   value:
     Rb: {fileID: 2910067434556962477}
-    Speed: 7
-    RotateSmoothTime: 2
+    Speed: 125
+    SmoothRotationTime: 0.1
 --- !u!114 &1724918204276596871
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -157,6 +158,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   value:
     Camera: {fileID: 0}
+--- !u!114 &7285640610156772103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2698265913666439759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e2f9d4e9538e4b4cbb5d35ebc3a6f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  value:
+    Animator: {fileID: 931109862056748182}
 --- !u!1 &7849231017824198054
 GameObject:
   m_ObjectHideFlags: 0
