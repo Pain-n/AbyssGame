@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public UnitModel PlayerData;
+    public PlayerModel PlayerData;
 
     public float GroundCheckOffset;
     public LayerMask GroundMask;
@@ -20,9 +20,18 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        PlayerData.Direction = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
+        if (PlayerData.IsAttacking)
+        {
+            PlayerData.Direction = Vector2.zero;
+        }
+        else
+        {
+            PlayerData.Direction = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
+        }
+
         PlayerData.Animator.SetFloat("XInput", PlayerData.Direction.x);
         PlayerData.Animator.SetFloat("YInput", PlayerData.Direction.y);
+
         Gravity();
         Falling();
     }

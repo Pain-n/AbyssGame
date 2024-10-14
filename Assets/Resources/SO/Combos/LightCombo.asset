@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b63c3963640e3c47b9c97ef612ecc0c, type: 3}
+  m_Name: LightCombo
+  m_EditorClassIdentifier: 
+  ComboList:
+  - {fileID: 11400000, guid: 8dc499261d9c36849ae8843b21a10f42, type: 2}
+  - {fileID: 11400000, guid: 2b3f26aec154f0e40b8fdd7d318baf69, type: 2}
+  - {fileID: 11400000, guid: 6a86500ab04027b4986b2a87325fa6c8, type: 2}

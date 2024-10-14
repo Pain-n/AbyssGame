@@ -1,8 +1,9 @@
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 [Serializable]
-public class UnitModel
+public class PlayerModel
 {
     public Rigidbody RB;
     public Animator Animator;
@@ -16,4 +17,9 @@ public class UnitModel
     public Vector2 Direction;
     [HideInInspector]
     public bool IsInAir;
+    [HideInInspector]
+    public bool IsAttacking;
+
+    public ColliderListModel AttackCollidersList;
 }
+
